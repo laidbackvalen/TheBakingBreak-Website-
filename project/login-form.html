@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* #fc2fcc --------------------------------------------------- the color of THE BAKING BREAK*/
+
+        html {
+            overflow-x: scroll;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("image/tbb_poster_recent.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .conatiner {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: 10vh;
+
+        }
+
+        .logo img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin-top: 2vh;
+            box-shadow: 20px 20px 20px 20px;
+
+        }
+
+        .container h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10vh;
+
+            /* box-shadow: 20px 20px 20px 20px #fc2fcc; */
+
+        }
+
+        .form1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10vh;
+
+
+
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2vh;
+            border: 2px solid #f1f1f1;
+
+            height: fit-content;
+            padding: 40px;
+            box-shadow: 20px 20px 20px 20px;
+        }
+
+        .form img {
+            margin: 30px 0 50px 0;
+        }
+
+        label {
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+          /*  height: vh;    */
+            margin: 10px auto;
+            padding: 5px 5px 5px 5px;
+            padding: 15px 10px 15px 10px;
+            border-radius: 5PX;
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: #fc2fcc;
+            color: #f1f1f1;
+            width: 100%;
+            border-radius: 5px;
+            margin: 10px 0px 20px 15px;
+            padding: 15px 10px 15px 10px;
+        }
+
+        .remember {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+
+        .remember p {
+            color: #fc2fcc;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .remember input {
+            width: 100%;
+            height: 3vh;
+        }
+
+        #remem {
+            padding: 12px 15px;
+
+        }
+
+        .forgot {
+            display: flex;
+            flex-direction: row;
+        }
+
+        p {
+            color: #fc2fcc;
+            padding-right: 50px;
+            margin-left: 60px;
+
+        }
+
+        .forgot p:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="logo"><img src="image/The Baking Break_NAME_PIC.png" width="50%" height="auto" alt=""></div>
+
+            <h2>Login Form</h2>
+
+            <div class="form1">
+
+                <div class="form">
+                    <img src="image/login.png" width="100vw" height="70vh" alt="">
+
+                    <!-- <form action="index.html"  method="post"> -->
+
+                    <form action="index.html">
+
+                        <label for="Username"><b>Username</b><br>
+
+                            <input type="text" id="name" name="Username" placeholder="Enter Username">
+
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <label for="password"><b>Password</b><br>
+
+                            <input type="password" id="name" name="password" placeholder="Enter Password"> <br>
+
+                        </label>
+
+                        <label for="submit">
+
+                            <button type="submit" id="submi" name="submit"><b>Login</b></button>
+
+                        </label>
+
+                        <div class="remember">
+                            <p>
+                                <label for="checkbox">
+
+                                    <input class="container" type="checkbox" id="check" name="checkbox">
+                                </label>
+                            </p>
+
+                            <p id="remem">Remember me</p>
+
+
+                        </div>
+
+                        <div class="forgot">
+
+                            <p>Forgotten Account?</p>
+
+                            <p>Sign up for The Baking Break</p>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <p>-</p>
+    </main>
+</body>
+
+</html>

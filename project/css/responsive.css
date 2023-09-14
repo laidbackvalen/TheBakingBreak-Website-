@@ -1,0 +1,311 @@
+@media screen and (max-width:1000px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    #wearenowavailable {
+        width: 100vw;
+        height: 25px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 10px;
+    }
+
+    header {
+        max-width: 100vw;
+        background-size: cover;
+    }
+   
+    nav ul {
+        width: auto;
+        margin: 0 0 0 60px;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-right: -5px;
+        padding: 0 7px;
+    }
+
+    .search {
+        justify-content: center;
+        margin-left: -300px;
+    }
+
+    #header-written1 {
+        justify-content: center;
+        font-size: 30px;
+        width: 330px;
+        margin-left: 20px;
+    }
+
+    #header-written2 {
+        font-size: 15px;
+        width: 330px;
+        margin-left: 20px;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .slider {
+        width: 90vw;
+        height: 25vh;
+    }
+    .videos video{
+        width: 100%;
+        height: auto;
+    }
+    .cards{
+        overflow: scroll;
+    }
+
+    .card-items img {
+        width: 150px;
+        height: 120px;
+    
+    }
+
+    .lines p {
+        font-size: 12px;
+    }
+
+    #discription-style {
+        font-size: 15px;
+    }
+
+    .lines button {
+        width: 150px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .recipe {
+        flex-direction: column;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .re {
+        height: 500px;
+
+
+    }
+
+    .recipes-written {
+        font-size: 30px;
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .recipes-written2 {
+        padding: 20px 0 0 40px;
+    }
+
+    .recipe-button {
+        justify-content: center;
+        margin-left: 40px;
+        transform: translate(0, -100px);
+        background-color: #529a82;
+        font-size: 15px;
+
+    }
+
+    .bakersblog {
+        margin: 30px;
+        padding: 0;
+    }
+
+    .bakersblog h2 {
+        margin: 0;
+        padding: 0 0 15px 0;
+    }
+
+    .blog {
+        padding: 0 0 0 0;
+    }
+
+    .first-row-image {
+        flex-direction: column;
+    }
+
+    .image1 img {
+
+        width: 85vw;
+    
+    }
+    .image2 img {
+
+        width: 85vw;
+    
+    }
+    .image3 img {
+
+        width: 85vw;
+        height: 40vh;
+        
+    }
+    .image4{
+        margin:0;
+    }
+    .image4 img {
+        
+        width: 85vw;
+        height: auto;
+       
+        
+    }
+    .image5 img {
+        
+        width: 85vw;
+        height: 40vh;
+        
+    }
+
+    #bk-f-row-img-h2{
+        width: 90vw;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+   #img1{
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+   }
+   #img2{
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+   }
+
+    .second-row-image {
+        flex-direction: column;
+    }
+
+    #bk-f-row-img-h21, #bk-f-row-img-h22 , #bk-f-row-img-h23 , #bk-f-row-img-h24 , #bk-f-row-img-h25{      
+        
+        /*This One Is For Bakersblog,  blog,  first-row-image,  image1,  p,  h2, id="#bk-f-row-img-h2" which sets for h2 tag below image */
+        
+        width: 85vw;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+   
+
+   #img3{
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+   }
+   #img4{
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+   }
+   #img5{
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+   }
+
+
+   section{
+    width:85vw;
+    height: 40vh;
+}
+
+    .review {
+        width: 100%;
+
+
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: 30px 0 0 0;
+        padding: 0;
+    }
+
+    .quotes {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .review h2 {
+        font-size: 20px;
+        transform: translate(-40px);
+
+    }
+
+    .quotes img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 0px;
+        bottom: -250px;
+    }
+
+    .borderlookalike {
+        visibility: hidden;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tbbinfo {
+        width: 90vw;
+        margin: 20px 0 20px 0;
+    }
+
+
+
+    .info {
+        flex-direction: column;
+
+    }
+
+    .tbbexplain {
+        margin: 5px;
+    }
+
+    .info ul {
+        text-align: start;
+        margin: 10px 0 20px 30px;
+    }
+
+    .info ul li {
+        text-align: start;
+
+    }
+
+    .social {
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 50px;
+        padding: 0;
+    }
+
+    .line img {
+        width: 100%;
+
+    }
+
+    .pay {
+        text-align: center;
+        padding-bottom: 15px;
+
+    }
+}
